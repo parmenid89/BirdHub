@@ -1,0 +1,53 @@
+.about {
+    position: relative;
+    min-height: 650px;
+    background: url("../assets/img/about_bg.png") center center / 100% 100% no-repeat;
+    z-index: -2;
+    &__arrows {
+        position: absolute;
+        z-index: -1;
+        top: 10%;
+    }
+    &__title {
+        padding-top: 100px;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 61px;
+        color: #16182C;
+    }
+    &__wrapper {
+        padding-top: 200px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &_img {
+            width: 100%;
+            height: 100%;
+        }
+        &_title {
+            margin-top: 36px;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 30px;
+            text-align: center;
+            color: #16182C;
+        }
+        &_text {
+            margin-top: 10px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            color: #25A8CE;
+        }
+    }
+    &_img {
+        width: 94px;
+        height: 94px;
+    }
+}

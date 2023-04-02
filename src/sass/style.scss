@@ -1,0 +1,41 @@
+@import './libs/bootstrap-reboot.min';
+
+@import 'libs/fonts';
+@import 'base/variables';
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    height: 100%;
+    position: relative;
+    z-index: -10;
+}
+
+* {
+    font-family: 'Nasalization Rg', sans-serif;
+    color:#fff;  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+@import 'blocks/header';
+@import 'blocks/button';
+@import 'blocks/hero';
+@import 'blocks/about';
+@import 'blocks/conditions';
+@import 'blocks/sky';
+@import 'blocks/contacts';
+@import 'blocks/footer';
+@import 'blocks/media';
+

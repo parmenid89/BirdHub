@@ -1,0 +1,427 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 850px;
+        &_header {
+            width: 800px;
+        }
+    }
+    .header {
+        &__logo {
+            width: 160px;
+            height: 70px;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &__link {
+            margin-right: 20px;
+            font-size: 12px;
+        }
+    }
+    .hero {
+        min-height: 620px;
+        &__title {
+            margin-top: -275px;
+            font-size: 15px;
+            line-height: 25px;
+        }
+        &__subtitle {
+            margin-left: 95px;
+            margin-top: 30px;
+            font-size: 60px;
+            line-height: 25px;
+        }
+        &__btn {
+            width: 200px;
+            height: 55px;
+            &_text {
+                font-size: 12px;
+            }
+        }
+        &__main_bg {
+            &_dron {
+                position: absolute;
+                width: 500px;
+                top: 85px;
+                right: -20px;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .about {
+        min-height: 500px;
+        background: url("../assets/img/about_bg.png") center center / 130% 100% no-repeat;
+        &__arrows {
+            width: 250px;
+            height: 500px;
+            top: 5%;
+        }
+        &__title {
+            padding-top: 50px;
+            font-size: 40px;
+            line-height: 40px;
+            color: #16182C;
+        }
+        &__item {
+            &_title {
+                margin-top: 20px;
+                font-size: 14px;
+                line-height: 20px;
+            }
+            &_text {
+                margin-top: 5px;
+                font-size: 12px;
+                line-height: 12px;
+            }
+        }
+    }
+    .conditions {
+        min-height: 350px;
+        &__slider {
+            padding-top: 50px;
+            width: 340px;
+            img {
+                width: 100%;
+                height: 100%;
+            }  
+            &__item {
+                width: 100%;
+            }
+            .slick-dots {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-left: 0;
+                overflow: hidden;
+                flex-wrap: wrap;
+                margin-top: 30px;
+            }
+            .slick-dots button{
+                width: 63px;
+                height: 50px;
+                margin-right: 0;
+            }
+        }
+        &__wrapper {
+            display: flex;
+            justify-content: space-between;
+        }
+        &__studyblock {
+            height: 450px;
+        }
+        &__title {
+            margin-top: 45px;
+            font-size: 38px;
+            line-height: 38px;
+        }
+        .text-item {
+            margin-top: 6px;
+        }
+        .text_sub {
+            font-size: 12px;
+            margin-left: 43px;
+            margin-top: 2px;
+        }
+        .text-item .text_check{
+            width: 16px;
+            height: 12px;
+            display: block;
+        }
+        .text-item .text{
+            margin-left: 25px;
+            font-size: 14px;
+        }
+        &__subtext_wrapper {
+            margin-top: 10px;
+        }
+        .subtext-item {
+            font-size: 12px;
+            margin-top: 10px;
+        }
+    }
+    .sky {
+        background: url('../../assets/img/sky_BG.png') center center / 100% 100% no-repeat;
+        min-height: 450px;
+        &__text {
+            left: 40%;
+            top: 35%;
+        }
+        &__subtext {
+            position: absolute;
+            left: 42%;
+            top: 47%;
+        }
+        &__btn {
+            top: 62%;
+            left: 62%;
+        }
+    }
+    .contacts {
+        min-height: 500px;
+        &__wrapper {
+            padding-top: 70px;
+        }
+        &__info {
+            width: 300px;
+        }
+        &__title {
+            font-size: 40px;
+            line-height: 40px;
+        }
+        &__subtitle {
+            margin-top: 10px;
+            font-size: 16px;
+            line-height: 16px;
+        }
+        &__text {
+            margin-top: 110px;
+            font-size: 16px;
+            line-height: 16px;
+        }
+        &__subtext {
+            margin-top: 10px;
+            font-size: 15px;
+            line-height: 15px;
+        }
+        &__btn {
+            margin-top: 25px;
+            width: 254px;
+            height: 63px;
+            a {
+                width: 200px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            img {
+                width: 16px;
+                height: 16px;
+            }
+        }
+        &__map {
+            width: 500px;
+            height: 350px;
+        }
+    }
+    footer {
+        min-height: 180px;
+        .wrapper {
+            padding-top: 30px;
+        }
+        .footer__link {
+            margin-right: 20px;
+            font-size: 14px;
+        } 
+        .footer__text {
+            margin-top: 10px;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 700px;
+        &_header {
+            width: 720px;
+        }
+    }
+    .hero {
+        min-height: 520px;
+        &__title {
+            margin-top: -280px;
+            margin-left: 50px;
+            font-size: 12px;
+            line-height: 12px;
+        }
+        &__subtitle {
+            margin-left: 50px;
+            margin-top: 30px;
+            font-size: 50px;
+        }
+        &__btn {
+            margin-left: 50px;
+            margin-top: 40px;
+        }
+        &__main_bg {
+            &_dron {
+                width: 400px;
+                top: 115px;
+                right: -10px;
+            }
+        }
+    }
+    .about {
+        min-height: 400px;
+        &__wrapper {
+            padding-top: 140px;
+        }
+        &__item {
+            &_title {
+                margin-top: 10px;
+                font-size: 12px;
+                line-height: 12px;
+            }
+            &_text {
+                margin-top: 5px;
+                font-size: 10px;
+                line-height: 10px;
+            }
+        }
+    }
+    .conditions {
+        min-height: 350px;
+        &__slider {
+            padding-top: 50px;
+            width: 300px;
+            .slick-dots {
+                margin-top: 15px;
+            }
+            .slick-dots button{
+                width: 55px;
+                height: 45px;
+                margin-right: 0;
+            }
+        }
+        &__studyblock {
+            height: 400px;
+            width: 350px;
+        }
+        &__title {
+            margin-top: 45px;
+            font-size: 28px;
+            line-height: 28px;
+        }
+        .text-item {
+            margin-top: 6px;
+        }
+        .text_sub {
+            font-size: 10px;
+            margin-left: 43px;
+            margin-top: 2px;
+        }
+        .text-item .text_check{
+            width: 14px;
+            height: 10px;
+            display: block;
+        }
+        .text-item .text{
+            margin-left: 25px;
+            font-size: 10px;
+        }
+        &__subtext_wrapper {
+            margin-top: 10px;
+        }
+        .subtext-item {
+            font-size: 10px;
+            margin-top: 17px;
+        }
+    }
+    .sky {
+        min-height: 400px;
+        &__text {
+            left: 40%;
+            top: 35%;
+            font-size: 30px;
+            line-height: 51px; 
+            span {
+                font-size: 30px;
+                line-height: 30px;
+            }
+        }
+        &__subtext {
+            position: absolute;
+            left: 42%;
+            top: 47%;
+            font-size: 30px;
+            line-height: 51px; 
+            span {
+                font-size: 30px;
+                line-height: 30px;
+            }
+        }
+        &__btn {
+            width: 180px;
+            height: 53px;
+        }
+    }
+    .contacts {
+        min-height: 400px;
+        &__effect_bg {
+            top: -80%;
+        }
+        &__wrapper {
+            padding-top: 50px;
+        }
+        &__info {
+            width: 250px;
+        }
+        &__title {
+            font-size: 30px;
+            line-height: 30px;
+        }
+        &__subtitle {
+            margin-top: 10px;
+            font-size: 12px;
+            line-height: 12px;
+        }
+        &__text {
+            margin-top: 95px;
+            font-size: 12px;
+            line-height: 12px;
+        }
+        &__subtext {
+            margin-top: 10px;
+            font-size: 12px;
+            line-height: 12px;
+        }
+        &__btn {
+            margin-top: 25px;
+            width: 200px;
+            height: 53px;
+            a {
+                font-size: 10px;
+                width: 180px;
+            }
+            img {
+                width: 16px;
+                height: 16px;
+            }
+        }
+        &__map {
+            width: 400px;
+            height: 300px;
+        }
+    }
+    footer {
+        min-height: 130px;
+        .logo {
+            width: 180px;
+            height: 60px;
+        }
+        .wrapper {
+            padding-top: 20px;
+        }
+        .footer__link {
+            margin-right: 15px;
+            font-size: 10px;
+        } 
+        .footer__text {
+            margin-top: 10px;
+        }
+        .main__btn {
+            width: 150px;
+            height: 39px;
+            &_text {
+                text-align: center;
+                font-size: 9px;
+            }
+        }
+    }
+}
+
+// @media (max-width: 768px) {
+
+// }

@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Nasalization Rg';
+    src: url('../../assets/fonts/');
+    src: url('../../assets/fonts/?#iefix') format('embedded-opentype'),
+        url('../../assets/fonts/NasalizationRg-Regular.woff2') format('woff2'),
+        url('../../assets/fonts/NasalizationRg-Regular.woff') format('woff'),
+        url('../../assets/fonts/NasalizationRg-Regular.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+}

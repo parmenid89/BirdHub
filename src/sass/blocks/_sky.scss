@@ -1,0 +1,50 @@
+.sky {
+    position: relative;
+    min-height: 566px;
+    background: url('../../assets/img/sky_BG.png') center center / 100% 100% no-repeat;
+    &__text {
+        position: absolute;
+        left: 42%;
+        top: 50%;
+        font-size: 40px;
+        line-height: 51px; 
+        color: #16182C;
+        span {
+            font-size: 40px;
+            line-height: 51px;
+            color: #32ADD1;
+        }
+    }
+    &__subtext {
+        position: absolute;
+        left: 45%;
+        top: 60%;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 51px; 
+        color: #16182C;
+        span {
+            font-size: 40px;
+            line-height: 51px;
+            color: #32ADD1;
+        }
+    }
+    &__btn {
+        position: absolute;
+        width: 214px;
+        height: 63px;
+        top: 72%;
+        left: 55%;
+        &_text {
+            font-size: 15px;
+            color: #16182C;
+            font-weight: 600;
+            text-decoration: none;
+            transition: color .3s;
+            z-index: 1;
+            &:hover {
+                color: white;
+            }
+        }
+    }
+}

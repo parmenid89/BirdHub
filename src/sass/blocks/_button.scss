@@ -1,0 +1,20 @@
+.main__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 25px;
+    width: 149px;
+    height: 39px;
+    background: linear-gradient(90deg, #0069C7 -58.21%, #58EEFF 70.15%);
+    border-radius: 29.9258px 0px;
+    &_text {
+        font-size: 9px;
+        color: #16182C;
+        font-weight: 600;
+        text-decoration: none;
+        transition: color .3s;
+        &:hover {
+            color: white;
+        }
+    }
+}
