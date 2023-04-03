@@ -422,6 +422,242 @@
     }
 }
 
-// @media (max-width: 768px) {
-
-// }
+@media (max-width: 768px) {
+    .container {
+        width: 500px;
+        &_header {
+            width: 550px;
+        }
+    }
+    .header {
+        &__logo {
+            width: 140px;
+            height: 60px;
+        }
+        &__list {
+            padding-left: 0;
+            margin-bottom: 0;
+        }
+        &__link {
+            margin-right: 10px;
+            font-size: 10px;
+        }
+        &__item {
+            margin-right: 5px;
+            a {
+                font-size: 9px;
+            }
+        }
+        &__nav {
+            .main__btn {
+                padding: 10px 5px;
+                width: 110px;
+                height: 39px;
+                &_text {
+                    font-size: 9px;
+                    margin-top: 3px;
+                    &:hover {
+                        color: black;
+                    }
+                }
+            }  
+        }
+    }
+    .hero {
+        min-height: 400px;
+        &__title {
+            margin-top: -320px;
+            font-size: 10px;
+        }
+        &__subtitle {
+            margin-top: 15px;
+            font-size: 35px;
+        }
+        &__btn {
+            margin-top: 60px;
+            width: 150px;
+            height: 30px;
+            a {
+                font-size: 9px;
+                &:hover {
+                    color: black;
+                }
+            }
+        }
+        &__main_bg {
+            &_dron {
+                width: 300px;
+            }
+        }
+    }
+    .about {
+        min-height: 380px;
+        &__wrapper {
+            align-items: start;
+        }
+        &__title {
+            font-size: 35px;
+        }
+        &_img {
+            width: 75px;
+            height: 75px;
+        }
+        &__item {
+            &_title {
+                font-size: 9px;
+            }
+            &_text {
+                margin-top: 5px;
+                margin-bottom: 0;
+                font-size: 9px;
+                line-height: 9px;
+            }
+        }
+    }
+    .conditions {
+        min-height: 350px;
+        &__slider {
+            width: 250px;
+            .slick-dots {
+                margin-top: 5px;
+                margin-bottom: 0;
+            }
+            .slick-dots button{
+                width: 45px;
+                height: 35px;
+                margin-right: 0;
+            }
+        }
+        &__studyblock {
+            height: 300px;
+            width: 250px;
+            margin-left: 30px;
+        }
+        &__title {
+            margin-top: 45px;
+            font-size: 15px;
+            line-height: 28px;
+        }
+        .text-item {
+            margin-top: 6px;
+            .text {
+                margin-left: 10px;
+                font-size: 8px;
+            }
+        }
+        .text_sub {
+            font-size: 8px;
+            margin-left: 25px;
+            margin-top: 2px;
+        }
+        &__subtext_wrapper {
+            margin-top: 5px;
+        }
+        .subtext-item {
+            font-size: 8px;
+            margin-top: 5px;
+        }
+    }
+    .sky {
+        background-color: #fff;
+        min-height: 350px;
+        &__text {
+            font-size: 20px;
+            line-height: 25px; 
+            span {
+                font-size: 20px;
+                line-height: 25px;
+            }
+        }
+        &__subtext {
+            left: 45%;
+            top: 44%;
+            font-size: 20px;
+            line-height: 25px; 
+            span {
+                font-size: 20px;
+                line-height: 25px;
+            }
+        }
+        &__btn {
+            width: 150px;
+            height: 40px;
+            a {
+                font-size: 9px;
+            }
+        }
+    }
+    .contacts {
+        min-height: 300px;
+        &__effect_bg {
+            top: -150%;
+        }
+        &__info {
+            width: 200px;
+        }
+        &__title {
+            font-size: 20px;
+            line-height: 25px;
+        }
+        &__subtitle {
+            margin-top: 10px;
+            font-size: 10px;
+            line-height: 10px;
+        }
+        &__text {
+            margin-top: 20px;
+            font-size: 10px;
+            line-height: 10px;
+        }
+        &__subtext {
+            margin-top: 10px;
+            font-size: 10px;
+            line-height: 10px;
+        }
+        &__btn {
+            margin-top: 25px;
+            width: 170px;
+            height: 45px;
+            a {
+                font-size: 8px;
+            }
+            img {
+                width: 16px;
+                height: 16px;
+                margin-left: 5px;
+            }
+        }
+        &__map {
+            width: 280px;
+            height: 200px;
+        }
+    }
+    footer {
+        min-height: 100px;
+        .logo {
+            width: 120px;
+            height: 50px;
+        }
+        .wrapper {
+            padding-top: 20px;
+        }
+        .footer__link {
+            margin-right: 8px;
+            font-size: 8px;
+        } 
+        .footer__text {
+            margin-top: 10px;
+            font-size: 8px;
+        }
+        .main__btn {
+            padding: 0;
+            width: 110px;
+            height: 40px;
+            &_text {
+                text-align: center;
+                font-size: 8px;
+                line-height: 8px;
+            }
+        }
+    }
+}
