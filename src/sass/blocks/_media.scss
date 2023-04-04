@@ -918,9 +918,6 @@
             font-size: 8px;
             line-height: 10px;
             text-align: center;
-            br {
-                display: none;
-            }
         }
         &__subtext {
             text-align: center;
@@ -934,12 +931,12 @@
             padding: 0;
             width: 150px;
             height: 30px;
+            
             a {
+                display: flex;
+                justify-content: space-around;
+                width: 120px;
                 font-size: 8px;
-                margin-left: 30px;
-            }
-            img {
-                display: none;
             }
         }
         &__map {
