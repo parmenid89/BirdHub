@@ -143,7 +143,7 @@
         }
     }
     .sky {
-        background: url('../../assets/img/sky_BG.png') center center / 100% 100% no-repeat;
+        background: url('../../assets/img/sky_BG.jpg') center center / 100% 100% no-repeat;
         min-height: 450px;
         &__text {
             left: 40%;
@@ -855,7 +855,7 @@
         }
     }
     .sky {
-        background: url('../../assets/img/sky_BG.png') top left / 150% 100% no-repeat;
+        background: url('../../assets/img/sky_BG.jpg') top left / 150% 100% no-repeat;
         min-height: 250px;
         &__text {
             font-size: 14px;
@@ -929,14 +929,17 @@
             margin: 0 auto;
             margin-top: 10px;
             padding: 0;
-            width: 150px;
-            height: 30px;
-            
+            width: 170px;
+            height: 30px;            
             a {
                 display: flex;
                 justify-content: space-around;
-                width: 120px;
+                width: 140px;
                 font-size: 8px;
+                img {
+                    width: 14px;
+                    height: 14px;
+                }
             }
         }
         &__map {
