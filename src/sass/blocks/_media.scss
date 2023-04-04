@@ -255,6 +255,10 @@
     }
     .about {
         min-height: 400px;
+        &__arrows {
+            width: 230px;
+            height: 400px;
+        }
         &__wrapper {
             padding-top: 140px;
         }
@@ -492,6 +496,10 @@
     }
     .about {
         min-height: 380px;
+        &__arrows {
+            width: 230px;
+            height: 400px;
+        }
         &__wrapper {
             align-items: start;
         }
@@ -582,6 +590,9 @@
         &__btn {
             width: 150px;
             height: 40px;
+            :hover {
+                color: black;
+            }
             a {
                 font-size: 9px;
             }
@@ -618,6 +629,9 @@
             margin-top: 25px;
             width: 170px;
             height: 45px;
+            :hover {
+                color: black;
+            }
             a {
                 font-size: 8px;
             }
@@ -658,6 +672,309 @@
                 font-size: 8px;
                 line-height: 8px;
             }
+        }
+    }
+    .main__btn {
+        &_text {
+            &:hover {
+                color: black;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 300px;
+        &_header {
+            width: 300px;
+            margin-top: 0;
+        }
+    }
+    header {
+        background-color: #151629;
+        z-index: -5;
+    }
+    .header {
+        &__inner {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: space-between;
+            width: 100%;
+        }
+        &__nav {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: space-between; 
+            .main__btn {
+                display: none;
+            }    
+        }
+        &__list {
+            padding-left: 0;
+            margin-bottom: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: space-between;
+            text-align: center;
+        }
+        &__item {
+            margin-right: 0;
+            margin-top: 15px;
+            line-height: 16px;
+            a {
+                font-size: 12px;
+            }
+
+        }
+        &__link {
+            margin-right: 0px;
+            font-size: 14px;
+            transition: color .3s;
+            &:hover {
+                color: white;
+            }
+        }
+    }
+    .hero {
+        margin-top: -5px;
+        min-height: 280px;
+        padding-top: 20px;
+        &__efect_bg {
+            display: none;
+        }
+        &__main_bg {
+            position: relative;
+            padding-top: 0px;
+            width: 100%;
+            height: 0px;
+            z-index: -1;
+            &_img {
+                width: 100%;
+            }
+            &_dron {
+                position: absolute;
+                width: 250px;
+                top: 80px;
+                right: 8%;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+        h1 {
+            width: 300px;
+        }
+        &__title {
+            margin-top: 20px;
+            font-size: 10px;
+            text-align: center;
+            margin-left: 0;
+        }
+        &__subtitle {
+            margin-top: 15px;
+            margin-left: 0;
+            text-align: center;
+            font-size: 35px;
+        }
+        &__btn {
+            margin: 0 auto;
+            margin-top: 20px;
+            padding: 0;
+            width: 150px;
+            height: 30px;
+            
+            a {
+                font-size: 9px;
+                padding: 0;
+                &:hover {
+                    color: black;
+                }
+            }
+        }
+    }
+    .about {
+        min-height: 320px;
+        background: url("../assets/img/about_bg.png") top right / 120% 60% no-repeat;
+        padding-bottom: 20px;
+        &__arrows {
+            top: 25%;
+            width: 150px;
+            height: 250px;
+        }
+        &__wrapper {
+            padding-top: 20px;
+            align-items: start;
+            flex-wrap: wrap;
+        }
+        &__title {
+            font-size: 30px;
+        }
+        &_img {
+            width: 50px;
+            height: 50px;
+        }
+        &__item {
+            margin-top: 10px;
+            width: 150px;
+            &_text {
+                margin-top: 5px;
+                margin-bottom: 0;
+            }
+        }
+    }
+    .conditions {
+        padding-bottom: 10px;
+        &__wrapper {
+            flex-direction: column;
+            justify-content: center;
+            align-items: space-between;
+        }
+        &__slider {
+            padding-top: 30px;
+            margin: 0 auto;
+            .slick-dots {
+                margin-top: 0px;
+            }
+        }
+        &__studyblock {
+            margin: 0 auto;
+        }
+        &__title {
+            text-align: center;
+            margin-top: 20px;
+        }
+        &__subtext_wrapper {
+            margin-top: 5px;
+        }
+        .subtext-item {
+            margin-top: 10px;
+        }
+    }
+    .sky {
+        background: url('../../assets/img/sky_BG.png') top left / 150% 100% no-repeat;
+        min-height: 250px;
+        &__text {
+            font-size: 14px;
+            line-height: 16px; 
+            left: 20%;
+            top: 70%;
+            span {
+                font-size: 14px;
+                line-height: 16px;
+            }
+        }
+        &__subtext {
+            left: 30%;
+            top: 78%;
+            font-size: 14px;
+            line-height: 16px; 
+            span {
+                font-size: 14px;
+                line-height: 16px;
+            }
+        }
+        &__btn {
+            padding: 0;
+            width: 150px;
+            height: 30px;
+            top: 15%;
+            left: 50%;
+        }
+    }
+    .contacts {
+        min-height: 300px;
+        padding-bottom: 20px;
+        &__wrapper {
+            padding: 0;
+            padding-top: 20px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: space-between;
+        }
+        &__effect_bg {
+            display: none;
+        }
+        &__info {
+            width: 300px;
+        }
+        &__title {
+            text-align: center;
+            margin: 0;
+            font-size: 20px;
+            line-height: 25px;
+        }
+        &__subtitle {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 11px;
+            line-height: 10px;
+        }
+        &__text {
+            margin-top: 5px;
+            font-size: 8px;
+            line-height: 10px;
+            text-align: center;
+            br {
+                display: none;
+            }
+        }
+        &__subtext {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 12px;
+            line-height: 12px;
+        }
+        &__btn {
+            margin: 0 auto;
+            margin-top: 10px;
+            padding: 0;
+            width: 150px;
+            height: 30px;
+            a {
+                font-size: 8px;
+                margin-left: 30px;
+            }
+            img {
+                display: none;
+            }
+        }
+        &__map {
+            margin: 0 auto;
+            margin-top: 20px;
+            width: 280px;
+            height: 200px;
+        }
+    }
+    footer {
+        min-height: 100px;
+        padding-bottom: 10px;
+        .logo {
+            margin-top: 5px;
+            width: 80px;
+            height: 30px;
+        }
+        .wrapper {
+            padding-top: 10px;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: space-between;
+        }
+        .footer__nav {
+            flex-direction: column;
+        }
+        .footer__link {
+            margin-right: 8px;
+            font-size: 9px;
+        } 
+        .main__btn {
+            padding: 0;
+            margin-top: 5px;
+            width: 150px;
+            height: 30px;
         }
     }
 }
