@@ -233,6 +233,14 @@
             margin-right: 20px;
             font-size: 10px;
         }   
+        &__nav {
+            .main__btn {
+                &_text {
+                    font-size: 10px;
+                    padding-top: 3px;
+                }
+            }
+        }
     }
     .hero {
         min-height: 520px;
@@ -426,7 +434,7 @@
             height: 39px;
             &_text {
                 text-align: center;
-                font-size: 9px;
+                font-size: 10px;
             }
         }
     }
@@ -681,6 +689,7 @@
         }
         .footer {
             &__wrapper_social {
+                margin-top: 5px;
                 width: 40px;
             }
             &__inst {
