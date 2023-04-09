@@ -679,6 +679,19 @@
                 line-height: 8px;
             }
         }
+        .footer {
+            &__wrapper_social {
+                width: 40px;
+            }
+            &__inst {
+                width: 15px;
+                height: 15px; 
+            }
+            &__telegram {
+                width: 15px;
+                height: 15px; 
+            }
+        } 
     }
     .main__btn {
         &_text {
@@ -687,6 +700,7 @@
             }
         }
     }
+    
 }
 
 @media (max-width: 576px) {
